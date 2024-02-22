@@ -62,7 +62,7 @@ body {
   border: 2px solid transparent;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   width: 600px;
-  height: 130px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,13 +74,15 @@ body {
   height: 50px;
   border: transparent;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .autoresize{
   width: 590px;
   border: transparent;
   resize: none;
-  font-weight: bold;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
@@ -93,6 +95,8 @@ body {
   font-weight: bold;
   margin-top: 5px;
   margin-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 
   overflow: hidden;
 
@@ -149,12 +153,94 @@ body {
 
 .card{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-  height: 140px;
-  width: 220px;
+  width: 250px;
+  max-height: 200px;
+  min-height: 50px;
   margin: 10px;
-  border-radius: 4px;
-  text-align: center; 
+  border-radius: 4px; 
   display: flex; 
-  flex-direction: column;
-  align-items: center; 
+  flex-direction: column; 
+}
+
+.card-title{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.card-content{
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  margin-top: 35px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  color: #4c4c4c;
+  
+}
+
+.card-color-1{
+  background-color: #ead3a7;
+}
+
+.card-color-2{
+  background-color: #9de0f5;
+}
+
+.card-color-3{
+  background-color: #ef89ba;
+}
+
+.card-color-4{
+  background-color: #fae890;
+}
+
+.card-color-5{
+  background-color: #abe9c1;
+}
+
+.card-rotation-1{
+  transform: rotate(-5deg);
+}
+
+.card-rotation-2{
+  transform: rotate(-4deg);
+}
+
+.card-rotation-3{
+  transform: rotate(-3deg);
+}
+
+.card-rotation-4{
+  transform: rotate(-2deg);
+}
+
+.card-rotation-5{
+  transform: rotate(-1deg);
+}
+
+.card-rotation-6{
+  transform: rotate(0deg);
+}
+
+.card-rotation-7{
+  transform: rotate(1deg);
+}
+
+.card-rotation-8{
+  transform: rotate(2deg);
+}
+
+.card-rotation-9{
+  transform: rotate(3deg);
+}
+
+.card-rotation-10{
+  transform: rotate(4deg);
+}
+
+.card-rotation-11{
+  transform: rotate(5deg);
 }
